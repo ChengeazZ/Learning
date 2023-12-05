@@ -1,0 +1,13 @@
+random.random() -> 0 la 1 arasinda bir eded verir
+
+random.uniform(f,C) -> floor la cieling arasinda bir reqem verir float
+
+random.randint(f,C) -> f la c arasinda bir integer verir
+
+random.randrange(f,c,step) f la c arasinda steplerle eded verir
+
+random.choice(list1) = listden random bir item verir
+
+random.shuffle(list1) = shuffles
+
+random.sample(list,3) = sayili item secir tekrar secmir

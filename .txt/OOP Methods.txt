@@ -1,0 +1,20 @@
+class insan:
+	def __init__(self,ad,yas):
+		self.ad = ad
+		self.yas = yas
+	
+	def info_ver(self): #instance method
+		return f"Ad: {self.ad}, yas:{self.yas}
+
+	@classmethod #classmethod
+	def stringden_cevir(cls,abc):
+		ad,yas = abc.split("-")
+		return cls(ad,yas)
+
+	@staticmethod #static method classdanda ,instancedanda elaqesiz umumi method
+	def yas_ad():
+		return "salam"
+
+adam1 = insan("Cingiz",24)
+
+adam2 = insan.stringden_cevir("Eldar-24")

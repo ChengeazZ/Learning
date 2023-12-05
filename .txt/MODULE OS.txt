@@ -1,0 +1,32 @@
+import os (operating systemle bagli olan seyler)
+
+print(os.getcwd()) - ishlediyimiz locationu gosterir
+
+os.chdir("C:\\Users\Cingi\PythonMs") - Change Directory
+
+os.listdir() ->print Locationdaki itemleri gosterir
+
+os.mkdir("C:\\location\\document_name") -> document yaradir
+
+os.makedirs("C:\\location\\1document_name\2\3name") -> ic ice documentler yaradir
+
+os.rmdir(location) -> tek bir bosh docummenti silmek
+
+os.removedirs(location) -> ich iche bir nece bosh documenti silmek
+
+os.remove(location) -> File silmek
+
+os.rename(location/filenameOriginal,
+
+os.stat(location) -> print
+
+os.walk(location) -> listdir kimi listleyeir butun itemleri amma forla iterate edib icindekilerin icindeki daxil her seyi gostere bilir
+
+os.path.join("a","b","c") -> a\b\c
+
+os.path.isfile(location) -> Boolean File True ; Document False
+
+os.path.isdir(location) -> Boolean File False ; Document True
+
+os.path.splitext(location) -> sonluqunu ayirib tuple edir (.exe,.txt ve s)
+

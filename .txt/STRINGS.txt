@@ -1,0 +1,36 @@
+                                     Python
+                              
+                              STRINGS " "
+
+A string is a data structure in Python that represents a sequence of characters.
+Sətir Python-da simvollar ardıcıllığını təmsil edən məlumat strukturudur.
+
+"\n" -New Line ;   "\t"  -Tab ;  """   """ -Expantion Line
+
+ad_soyad = "Cingiz" + " " + " Aliyev" = "Cingiz Aliyev"
+
+print(ad_soyad[0:6:2] -> "Cni"  beginning:ending:step_size
+
+
+Some String Functions:
+
+string1 = "cingiz" , string2 = "My life my rules"
+
+string2.split(" ") -> string to list = ["My","life","my","rules"]
+
+" ".join(["My","life","my","rules"]) -> list to string -> "My life my rules"
+
+
+print("Ad: {} , Soyad: {}".format(string1,"Aliyev") -> "Ad: cingiz , Soyad: Aliyev"
+
+print(f" Ad: {string1}") = "Ad: cingiz"
+
+string1.capitalize() = "Cingiz"
+
+string1.upper() = "CINGIZ"
+
+string1.lower() = "cingiz"
+
+string1.startswith("Cin") -> False ("cin") -> True
+
+string1.endswith("giz") -> True

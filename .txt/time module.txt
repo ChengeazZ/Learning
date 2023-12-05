@@ -1,0 +1,7 @@
+a= time.time() b=time.time() a-b zaman ferqi
+
+time.ctime() -> current time date
+
+time.strftime("%d:%m:%y") istediyin formada tarixi duzelde bilrsen
+
+time.sleep(seconds) = koda saniyeler qeder pausa

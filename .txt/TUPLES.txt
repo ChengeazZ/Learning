@@ -1,0 +1,4 @@
+                                         TUPLES
+
+A list is a data structure in Python that is a NOT-changeable but ordered sequence of elements.
+

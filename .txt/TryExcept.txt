@@ -1,0 +1,27 @@
+try:
+	eger burada yazdigin kodlarda error olmasa her sey normal ishleyecek ve except blokuna baxmayacaq
+
+
+
+except:
+	eger try blokunda error olsa expet blokunda yazilan kodlar ishe dushecek
+
+---------------------------------------------------------------------------------------------------------------
+
+try:
+	kodlari yazdin
+	##(fake error yaratmaq ucun: raise errorname
+
+
+except errorname:
+	tryda spesifik error olsa onda ishleyecek
+
+except Exception:
+	eger spesifik xetalara ilishmedise sonda bu umumiye ilisir hemise sonda yazmaq lazimdi
+	
+
+else:
+	eger try blokunda hec bir xeta cixmasa ishleyecek elave kodlar mes print("her sey ela")
+
+finally:
+	ne olur olsun ishleyen blok

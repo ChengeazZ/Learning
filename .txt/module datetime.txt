@@ -1,0 +1,7 @@
+datetime.date.today() -> bu gunun tarixi
+
+tarix = datetime.date(1999,8,10) -> variablea tarix assign elemek
+
+datetime.datetime.now() -> Indiki vaxti tarixi fln gostermek
+
+datetime.datetime.fromtimestamp(raw data) -> tarix formatini bize uygun duzeldir

@@ -1,0 +1,18 @@
+                                             SETS
+
+A Python set is an UNORDERED collection of unique elements enclosed in curly braces {} that Eliminates Duplicates from the data.
+
+
+                                           SOME FUNCS AND METHODS
+
+set1.add("bir")
+
+set1.remove("bir")
+
+set1.discard("bir") buda remove edir amma item orda yoxdursa error vermir
+
+set1.intersection(set2) -> iki setdeki ortaq itemleri gosterir
+
+set1.difference(set2) -> birinci setde olub ,ikide olmayanlar
+
+set1.union(set2) -> iki seti birlesdirir

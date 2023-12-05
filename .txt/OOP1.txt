@@ -1,0 +1,21 @@
+Object Orianted Programming
+
+Class - sinif ; Instance Classa daxil edilmish ve onun attributlerini alan bir uzvdur
+
+class ishciler:
+	def __init__(self,ad(or a),soyad(or b),yas(or c):
+		vergi_faizi = 1.1 #class variable
+		ishci_sayi = 0
+		self.ad = ad(or a)
+		self.soyad = soyad(or b)
+		self.yas = yas(or c)
+		ishci.ishci_sayi = +1 #her defe class ishleyende bir elave edecek
+ischi1 = ishciler("cingiz","aliyev",24)
+ishci1.vergi_faizi = 1.2 #instance variable
+
+print(ishci1.ad) , print("ishci1.__dict__)
+
+
+Attributelara default bir sey add etmek ucun (self,ad="Yoxdur" , soyad = "yazilmayib" ve s)
+
+Xusisi birine yazmaq isdeyende  ishci2 = ishciler("cingiz",yas = 23)

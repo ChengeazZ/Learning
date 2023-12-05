@@ -1,0 +1,9 @@
+Modules
+
+import modulename -> butun fubkisyalar gelir ama modulname.func() la cagirmalisan
+
+from modulename import funcname -> yalniz func gelir  func() la cagirirsan
+
+from modulename import *  butun funclar gelir func() la cagirirsan
+
+import modulname as new_name     new_name.func() la cagirirsan
